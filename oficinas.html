@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Oficinas CUMS</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Algorytmos Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html"><img src="assets/img/LOGOS_UMS-02.png" alt="" width="100" height="90" class="img-fluid"></a>
+        </h1>
+      </div>
+
+     <nav id="navbar" class="navbar">
+        <ul>
+           <li><a href="index.html">UMS</a></li>
+           <li><a href="departamentos.html">Departamentos y suites</a></li>
+          <li class="dropdown"><a href="#"><span>Oficinas</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto" href="#about">¿Qiuenes somos?</a></li>
+              <li><a class="nav-link scrollto" href="#marca">Ventajas</a></li>
+              <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
+              <li><a class="nav-link scrollto" href="#portfolio">Oficinas en renta</a></li>
+            </ul>
+          </li>
+         <li><a href="cowork.html">Cowork</a></li>
+          <!--<li><a class="nav-link scrollto" href="#">Locales comerciales</a></li>
+          -->
+
+
+          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+
+      <!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+<section id="hero">
+
+ <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 3 -->
+  <div class="carousel-item active" style="background-image: url(Banner/BannerAssets/img/slide/slide_1.3.jpg);">
+    <div class="carousel-container">
+      <div class="carousel-content animate__animated animate__fadeInUp">
+        <h2>Oficinas en Renta</h2>
+        <p>Privacidad, modernidad y profesionalismo</p>
+        <div class="text-center"><a href="#portfolio" class="btn-get-started">Ver más</a></div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Slide 6 -->
+     <div class="carousel-item" style="background-image: url(Banner/BannerAssets/img/slide/slide_6.jpg);">
+       <div class="carousel-container">
+         <div class="carousel-content animate__animated animate__fadeInUp">
+           <h2>COWORKING</h2>
+           <p>Ideas que fluyen en un ambiente creativo y comunitario </p>
+           <div class="text-center"> <button type="button" class="btn-get-started" data-bs-toggle="modal" data-bs-target="#covideo2">
+              Ver video
+            </button></div>
+          <!-- <div class="text-center"><a href="cowork.html" class="btn-get-started">Ver video</a></div>-->
+         </div>
+       </div>
+     </div>
+
+
+     <!-- Modal -->
+     <div class="modal fade" id="covideo2" tabindex="-1" role="dialog" aria-labelledby="covideomodal" aria-hidden="true">
+         <div class="modal-dialog modal-xl" role="document">
+           <div class="modal-content" style="background-color: transparent;">
+             <div class="modal-header border border-0" style="background-color: transparent;" >
+               <h5 class="modal-title" id="covideomodal"></h5>
+               <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                 <span style="color: #ffff; font-size:40px;" aria-hidden="true">&times;</span>
+               </button>
+             </div>
+             <div class="modal-body border border-primary">
+                     <div class="embed-responsive embed-responsive-4by3">
+                         <iframe class="embed-responsive-item" src="assets/video/cowork.mp4" id="covideo" onpause="fal"></iframe>
+                     </div>
+             </div>
+
+           </div>
+         </div>
+       </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-left-arrow" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-right-arrow" aria-hidden="true"></span>
+      </a>
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    </div>
+<!--
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+-->
+  </section>
+
+  <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Oficinas en renta</h2>
+          <p style="color:#009aff">Espacios creativos</p>
+        </div>
+
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6 mt-5 pt-lg-0">
+            <p>
+              <strong>UMS</strong> pone a su disposición modernas
+              y elegantes oficinas y salas de juntas ejecutivas
+              con un inmejorable nivel de privacidad en la
+              exclusiva zona de Sonata.<br><br>Todas nuestras oficinas están totalmente equipadas con
+              mobiliario de vanguardia <br>e internet de alta velociad, lo
+              que nos permite ser el sitio ideal para que tu <br>negocio
+              prospere.
+            </p>
+            <!--  <ul>
+              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
+              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+            </ul>-->
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <img src="assets/img/oficinas/ofices.png" class="w-100">
+            <!--<a href="#" class="btn-learn-more">Learn More</a>-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div data-aos="zoom-out">
+          <div class="text-center text-lg-start">
+            <h1 class="text-center" style="color:#ffff">
+
+              <img src="assets/img/inicio/comi7.png" class="img-fluid">
+
+              Privacidad, seguridad y profesionalismo <img src="assets/img/inicio/comi7.png" class="img-fluid">
+            </h1>
+            <!--<p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+          </div>
+          <!--<div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>-->
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Features Section
+    <section id="features" class="features">
+      <div class="container">
+
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3" data-aos="zoom-in">
+            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+              <i class="ri-gps-line"></i>
+              <h4 class="d-none d-lg-block">Modi sit est dela pireda nest</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+              <i class="ri-body-scan-line"></i>
+              <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+              <i class="ri-sun-line"></i>
+              <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+              <i class="ri-store-line"></i>
+              <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-1.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-2.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
+                </ul>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-3.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-4.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section> End Features Section -->
+
+
+    <!-- ======= About Section ======= -->
+    <section id="marca" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>ventajas</h2>
+          <p style="color:#009aff">TODA UNA EXPERIENCIA</p>
+        </div>
+
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6 mt-5 pt-lg-0">
+            <p>
+              Nuestra oficinas son privadas y a la medida de tus
+              necesidades, cómodas y rentables ya sea por un
+              periodo de tiempo o por hora nos instalamos en uno
+              de los distritos más vanguardistas de la ciudad,
+              Lomas de Angelópolis, ven a conocernos y vive una
+              experiencia premium.
+            </p>
+            <p class="fs-3">SALAS DE JUNTAS </p>
+            <p>Obtenga un espacio para sorprender a sus clientes y con todo lo necesario para hacer presentaciones
+              y talleres de una manera profesional y eficiente. </p>
+            <ul>
+              <li><i class="ri-check-double-line" style="color:#EBAA15"></i> Flexibilidad de horarios para ti y tus clientes</li>
+              <li><i class="ri-check-double-line" style="color:#EBAA15"></i> Presentaciones en salas de juntas empresariales</li>
+              <li><i class="ri-check-double-line" style="color:#EBAA15"></i> Un entorno de trabajo profesional</li>
+
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <img src="assets/img/oficinas/ofices2.png" class="w-100">
+            <!--<a href="#" class="btn-learn-more">Learn More</a>-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>servicios</h2>
+          <p style="color:#009aff">oficinas equipadas</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="zoom-in-left">
+
+
+
+
+              <img src="assets/img/iconos_ofi/ofi-02.png" style="margin-top:5%; margin-bottom:5%;" class="rounded float-start" width="110px" height="110px">
+
+
+
+              <!--<div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>-->
+
+              <p class="fw-bold" style=" margin-left:110px; margin-top:8%; position:absolute; color:#787878;">Moviliario de <br> vanguardia</p>
+
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+              <img src="assets/img/iconos_ofi/ofi-03.png" style="margin-top:4%; margin-bottom:6%;" class="rounded float-start" width="110px" height="110px">
+              <!--  <div class="icon"><i class="bi bi-book" style="color: #e9bf06;"></i></div>-->
+
+              <p class="fw-bold" style=" margin-left:105px; margin-top:8%; position:absolute; color:#787878;">Equipo para <br> presentaciones</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+
+              <img src="assets/img/iconos_ofi/ofi-04.png" style="margin-top:4%; margin-bottom:6%;" class="rounded float-start" width="110px" height="110px">
+              <p class="fw-bold" style=" margin-left:105px; margin-top:8%; position:absolute; color:#787878;">Ubicación exclusiva</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+
+              <img src="assets/img/iconos_ofi/ofi-05.png" style="margin-top:4%; margin-bottom:6%;" class="rounded float-start" width="110px" height="110px">
+              <p class="fw-bold" style=" margin-left:105px; margin-top:8%; position:absolute; color:#787878;">Roof garden</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
+              <img src="assets/img/iconos_ofi/ofi-06.png" style="margin-top:4%; margin-bottom:6%;" class="rounded float-start" width="110px" height="110px">
+              <p class="fw-bold" style=" margin-left:105px; margin-top:8%; position:absolute; color:#787878">Aire acondicinado</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
+              <img src="assets/img/iconos_ofi/ofi-07.png" style="margin-top:4%; margin-bottom:6%;" class="rounded float-start" width="110px" height="110px">
+              <p class="fw-bold" style=" margin-left:105px; margin-top:8%; position:absolute; color:#787878">Seguridad</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+
+              <img src="assets/img/iconos_ofi/ofi-08.png" style="margin-top:4%; margin-bottom:6%;" class="rounded float-start" width="110px" height="110px">
+              <p class="fw-bold" style=" margin-left:105px; margin-top:8%; position:absolute; color:#787878;">Internet de <br>alta velocidad</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
+              <img src="assets/img/iconos_ofi/ofi-09.png" style="margin-top:4%; margin-bottom:6%;" class="rounded float-start" width="100px" height="100px">
+              <p class="fw-bold" style=" margin-left:105px; margin-top:8%; position:absolute; color:#787878;">Teléfono</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
+              <img src="assets/img/iconos_ofi/ofi-10.png" style="margin-top:4%; margin-bottom:6%;" class="rounded float-start" width="100px" height="100px">
+              <p class="fw-bold" style=" margin-left:105px; margin-top:8%; position:absolute; color:#787878;">Sala de juntas</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Renta</h2>
+          <p style="color:#009aff">Privacidad, seguridad y profesionalismo</p>
+
+        </div>
+
+
+        <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
+          <li data-filter="*" class="filter-active">Oficinas</li>
+          <!--<li data-filter=".filter-casas">casas</li>
+          <li data-filter=".filter-dep">Departamentos</li>
+          <li data-filter=".filter-lotes">lotes</li>-->
+        </ul>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-casas">
+            <div class="portfolio-img"><img src="assets/img/oficinas/portfolio-1ofi.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>OFICINA 1</h4>
+              <p style="color:#EBAA15">DISTRITO SONATA</p>
+              <a href="assets/img/oficinas/portfolio-1ofi.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-casas">
+              <div class="portfolio-img"><img src="assets/img/oficinas/portfolio-2ofi.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>OFICINAS 2</h4>
+                <p style="color:#EBAA15">DISTRITO SONATA</p>
+                <a href="assets/img/oficinas/portfolio-2ofi.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-casas">
+            <div class="portfolio-img"><img src="assets/img/oficinas/portfolio-3ofi.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>OFICINAS 3</h4>
+              <p style="color:#EBAA15">DISTRITO SONATA</p>
+              <a href="assets/img/oficinas/portfolio-3ofi.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dep">
+            <div class="portfolio-img"><img src="assets/img/oficinas/portfolio-4ofi.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>OFICINA 4</h4>
+              <p style="color:#EBAA15">DISTRITO SONATA</p>
+              <a href="assets/img/oficinas/portfolio-4ofi.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-casas">
+            <div class="portfolio-img"><img src="assets/img/oficinas/salas2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>SALAS DE JUNTAS</h4>
+              <p style="color:#EBAA15">UBICADAS EN DISTRITO SONATA</p>
+              <a href="assets/img/oficinas/salas2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-casas">
+            <div class="portfolio-img"><img src="assets/img/oficinas/salas1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>SALAS DE JUNTAS</h4>
+              <p style="color:#EBAA15">CONFORTABLES E ILUMINADAS</p>
+              <a href="assets/img/oficinas/salas1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dep">
+            <div class="portfolio-img"><img src="assets/img/oficinas/portfolio-5ofi.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>OFICINA 5</h4>
+              <p style="color:#EBAA15">DISTRITO SONATA</p>
+              <a href="assets/img/oficinas/portfolio-5ofi.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        <!--  <div class="col-lg-4 col-md-6 portfolio-item filter-lotes">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-aguasca.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>PARQUE AGUASCALIENTES</h4>
+              <p>TERRENO-LOTE</p>
+              <a href="assets/img/portfolio/portfolio-aguasca.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-lotes">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-rodas.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>PARQUE RODAS</h4>
+              <p>TERRENO-LOTE</p>
+              <a href="assets/img/portfolio/portfolio-rodas.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-lotes">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-foresta.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>PARQUE FORESTA</h4>
+              <p>TERRENO-LOTE</p>
+              <a href="assets/img/portfolio/portfolio-foresta.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>-->
+
+
+        </div>
+
+      </div>
+
+
+
+    </section><!-- End Portfolio Section -->
+
+
+
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Contacto</h2>
+          <p>Contacta a nuestros agentes</p>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Dirección:</h4>
+                <p>Paseo Ópera No. 2, penthouse 7, Lomas de Angelópolis San Andrés Cholula, Puebla, Mexico</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@construtoraums.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Llámanos:</h4>
+                <p>+52 1 22 24 20 76 51</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>UMS Constructora</h3>
+      <p>Suguenos en nuestras redes para ver más inmuebles disponibles.</p>
+      <div class="social-links">
+        <!--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>-->
+        <a href="https://www.facebook.com/Constructora-UMS-743692732670183" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/ums.constructora/?hl=es" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <!--  <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>-->
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>UMS Constructora</span></strong>. Derechos Reservados
+      </div>
+      <div class="credits">
+
+        <!--Designed by <a href="https://Algorytmos.com/">Algorytmos</a>-->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Algorytmos Main JS File -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+  <script src="assets/js/main2.js"></script>
+
+  <!--BANNER VIDEO 2-->
+  <script type="text/javascript">
+    //Url del video a reproducir
+    $(window).on('load', function () {
+      var iframe=$('#covideo');
+      iframe.attr("src", null);
+    });
+    var videoSrc2='assets/video/cowork.mp4';
+
+    //Al abrir la ventana modal, le agregué autoplay igual a 1, para que se reproduzca
+    //automáticamente, en caso de que no se requiera la autoreproducción, se quita
+    //esa parte "?autoplay=1".
+    $('#covideo2').on('show.bs.modal', function () {
+      var iframe=$('#covideo');
+      iframe.attr("src", videoSrc2+"?autoplay=1");
+    });
+
+    //Al cerrar la ventana modal, solamente reasignamos el video al atributo del iframe
+    //y eso ocasiona que se detenga la reproducción del archivo,
+    //aunque también podríamos haber dejado el valor src en null. :)
+    $('#covideo2').on('hidden.bs.modal', function (e) {
+
+      var iframe=$('#covideo');
+      iframe.attr("src", null);
+
+    });
+  </script>
+
+
+  <script type="text/javascript">
+    //Url del video a reproducir
+    $(window).on('load', function () {
+      var iframe=$('#iframeVideo');
+      iframe.attr("src", null);
+    });
+    var videoSrc='assets/video/Casas.mp4';
+
+    //Al abrir la ventana modal, le agregué autoplay igual a 1, para que se reproduzca
+    //automáticamente, en caso de que no se requiera la autoreproducción, se quita
+    //esa parte "?autoplay=1".
+    $('#exampleModal').on('show.bs.modal', function () {
+      var iframe=$('#iframeVideo');
+      iframe.attr("src", videoSrc+"?autoplay=1");
+    });
+
+    //Al cerrar la ventana modal, solamente reasignamos el video al atributo del iframe
+    //y eso ocasiona que se detenga la reproducción del archivo,
+    //aunque también podríamos haber dejado el valor src en null. :)
+    $('#exampleModal').on('hidden.bs.modal', function (e) {
+
+      var iframe=$('#iframeVideo');
+      iframe.attr("src", null);
+
+    });
+  </script>
+
+</body>
+
+</html>
